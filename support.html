@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clavier: Voice Keyboard — Support</title>
+<meta name="description" content="Support for Clavier: setup, the microphone, secure fields, and how to reach a human.">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    color: #1d1d1f;
+    background: #ffffff;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 80px; }
+  h1 { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; margin: 0 0 4px; }
+  .sub { color: #6e6e73; margin: 0 0 40px; font-size: 15px; }
+  h2 { font-size: 20px; font-weight: 650; margin: 40px 0 10px; letter-spacing: -0.01em; }
+  p, li { color: #1d1d1f; }
+  .card {
+    border: 1px solid #d2d2d7;
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin: 28px 0;
+    background: #f5f5f7;
+  }
+  .card strong { display: block; margin-bottom: 6px; }
+  .muted { color: #6e6e73; font-size: 14px; }
+  a { color: #0066cc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  ol li, ul li { margin: 8px 0; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #d2d2d7; font-size: 14px; color: #6e6e73; }
+  nav { display: flex; gap: 18px; margin-top: 4px; }
+  nav a { font-size: 14px; }
+  code {
+    font-family: "SF Mono", ui-monospace, Menlo, monospace;
+    font-size: 15px;
+    background: #f5f5f7;
+    border: 1px solid #d2d2d7;
+    border-radius: 6px;
+    padding: 1px 6px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Clavier</h1>
+  <p class="sub">Support · Clavier: Voice Keyboard</p>
+  <nav><a href="index.html">Privacy</a> <a href="support.html">Support</a></nav>
+
+  <h2>Set it up once</h2>
+  <ol>
+    <li>Open the Clavier app. It walks you through two steps: adding the keyboard, and allowing Full Access.</li>
+    <li>In iOS Settings, under <strong>General ▸ Keyboard ▸ Keyboards</strong>: add <em>Clavier</em>, then turn on <em>Allow Full Access</em>. Full Access is what lets the keyboard hand your recording to the app for transcription — without it, the keyboard is a normal keyboard.</li>
+    <li>Any time you want to speak, open any text field and switch to the Clavier keyboard. The mic pill records, the model transcribes on your iPhone, and the text lands where your cursor is.</li>
+  </ol>
+
+  <div class="card">
+    <strong>Secure fields (passwords, banking apps)</strong>
+    iOS hides third-party keyboards entirely inside secure fields — this is a platform rule, not a choice. Clavier detects it and tells you. The practical escape: dictate in the Clavier app and paste, or use the dictation pad. Nothing Clavier does can type into a masked field; no keyboard can.
+  </div>
+
+  <h2>When the model is still loading</h2>
+  <p>The first use after an install downloads nothing — the model ships inside the app — but it can take a few seconds to load into memory. Until it is ready, Clavier behaves as a fast normal keyboard so you are never blocked. The voice layer appears the moment the model is up.</p>
+
+  <h2>Memory and battery</h2>
+  <p>Clavier loads the model only while you are dictating and releases it when you finish. On older iPhones with very little free memory, Clavier may hand the dictation back to the app and fall back to the plain keyboard while it is under pressure; your words are never discarded — the dictation is still yours to retrieve.</p>
+
+  <h2>Reset and erase</h2>
+  <p>In the Clavier app, <strong>Settings ▸ Reset</strong> clears the on-device dictation history and returns the app to its first-run state. Your text, wherever you typed it, is unaffected — it lives in the app you were using.</p>
+
+  <h2>Reach a human</h2>
+  <p>Email <a href="mailto:voineavladimir@gmail.com">voineavladimir@gmail.com</a> with your iPhone model and iOS version. There is no in-app chat, no ticket system, and no analytics: email is the whole support channel, and it goes directly to the person who built the app.</p>
+
+  <footer>Clavier · Parallax Technologies SRL · This page sets no cookies and loads no scripts.</footer>
+</main>
+</body>
+</html>
